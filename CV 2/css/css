@@ -1,0 +1,6 @@
+header{
+	text-align: center;
+	background: #BFFFD7;
+	color: #60806C;
+	padding: 10px;
+}

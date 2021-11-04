@@ -1,0 +1,94 @@
+.header{
+	text-align: center;
+	background: #BFFFD7;
+	color: #60806C;
+	padding: 10px;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 200%;
+}
+nav{
+	font-size: 100%;
+	padding: 20px 40px 20px 40px;
+	margin: 20px 80px 20px 80px;
+}
+nav a{
+	color: #60806C;
+	text-decoration: none;
+	background: rgb(255,255,255,0.5);
+	width: 20%;
+ 	padding: 20px 20px 20px 20px;
+ 	margin: 20px;
+ 	border-radius: 70px;
+}
+body{
+	margin: 20px 20px 20px 20px;
+	font-family: "Palanquin", sans-serif;
+}
+.leftcolumn{
+	float: left;
+	width: 30%;
+	height: 800px;
+	overflow-y: auto;
+	background-color: #99CCAD;
+	color: #394D41;
+	height: calc(100%-100px);
+}
+.leftcolumn .card{
+
+}
+img{
+	width: 100%;
+	display: inline;
+	border-radius: 10px;
+}
+.rightcolumn{
+	float: left;
+	width: 70%;
+	height: 800px;
+	overflow-y: auto;
+	background-color: #60806C;
+	color: #BFFFD7;
+}
+.card{
+	padding: 10px;
+
+}
+.card:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+li{
+	list-style-type: circle;
+}
+summary{
+	font-weight: bold;
+}
+h2{
+	text-transform: uppercase;	
+}
+.footer{
+	background: #BFFFD7;
+	padding-top: 50px;
+	padding-bottom: 50px;
+ 	text-align: center;
+ 	display: block;
+ 	clear: both;
+}
+.footer a{
+	color: #60806C;
+	text-decoration: none;
+	background: rgb(255,255,255,0.5);
+	width: 200%;
+ 	padding: 20px 20px 20px 20px;
+ 	margin: 20px;
+ 	border-radius: 70px;
+}
+/*mouse over link*/
+.footer a:hover{
+	background: #FFFFFF;
+}
+nav a:hover{
+	background: #FFFFFF;
+}
